@@ -12,7 +12,7 @@ function Details() {
 
 	useEffect(() => {
 		const getDetails = async () => {
-			const driver = await axios.get(`http://localhost:3500/${id}`);
+			const driver = await axios.get(`https://driver-qrcode-backend.herokuapp.com/${id}`);
 			setDetails(driver.data);
 		};
 		getDetails();
@@ -40,7 +40,7 @@ function Details() {
 						<div className={styles.qrcode}>
 							<QRCode
 								renderAs='svg'
-								value={`http://localhost:3000/details/${id}`}
+								value={`https://driver-qcode-frontend.vercel.app/details/${id}`}
 							/>
 						</div>
 						<div className={styles.details}>
