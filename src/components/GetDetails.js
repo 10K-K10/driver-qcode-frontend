@@ -26,8 +26,7 @@ function GetDetails() {
 			alert("Contact should be of 10 digts");
 			return;
 		}
-		const driver = await axios.get(`http://localhost:3500/get/${contact}`);
-		console.log(driver.data);
+		const driver = await axios.get(`https://driver-qrcode-backend.herokuapp.com/get/${contact}`);
 		setDetails(driver.data);
 		// document.getElementById("download");
 	};
@@ -47,7 +46,7 @@ function GetDetails() {
 							<div className={styles.qrcode}>
 								<QRCode
 									renderAs='svg'
-									value={`http://localhost:3000/details/${details._id}`}
+									value={`https://driver-qcode-frontend.vercel.app/details/${details._id}`}
 								/>
 							</div>
 							<div className={styles.details}>
