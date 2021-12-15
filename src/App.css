@@ -8,7 +8,7 @@ a {
 }
 
 .home {
-	background-image: url("http://localhost:3000/abc.svg");
+	background-image: url("https://driver-qcode-frontend.vercel.app/abc.svg");
 	background-repeat: no-repeat;
     background-position: center;
 }
