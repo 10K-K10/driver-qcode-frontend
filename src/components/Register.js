@@ -42,7 +42,7 @@ function Register() {
 			return;
 		}
 		try {
-			const { data } = await axios.post("http://localhost:3500/", {
+			const { data } = await axios.post("https://driver-qrcode-backend.herokuapp.com/", {
 				driver,
 			});
 			setId(data);
@@ -158,7 +158,7 @@ function Register() {
 					<div className={styles.qrcode}>
 						<QRCode
 							renderAs='svg'
-							value={`http://localhost:3000/details/${id}`}
+							value={`https://driver-qcode-frontend.vercel.app/details/${id}`}
 						/>
 					</div>
 					<div className={styles.details}>
