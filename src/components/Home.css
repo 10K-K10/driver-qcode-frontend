@@ -1,0 +1,16 @@
+main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.home1{
+    flex: 1;
+    text-align: center;
+}

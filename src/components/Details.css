@@ -1,0 +1,78 @@
+.detailsSection {
+	width: 100%;
+	max-width: 500px;
+	background: #dac7ff;
+	margin: auto;
+	margin-top: 5rem;
+	padding: 2.5rem;
+	border-radius: 0.5rem;
+}
+
+.detailsSection header h1 {
+	font-size: 1.2rem;
+}
+
+.detailsSection header h3 {
+	font-size: 1rem;
+	padding-left: 1rem;
+	font-weight: 500;
+}
+
+.driverdiv,
+.vehiclediv {
+	padding-left: 1rem;
+}
+
+.driverdiv p,
+.vehiclediv p {
+	font-weight: 500;
+}
+
+.detailsSection h1 {
+	font-size: 1.2rem;
+}
+
+hr {
+	border-color: #5a025a;
+	border-width: 0.1px;
+	margin: 0.1px 0;
+}
+
+.btn1 {
+	font-size: 1rem;
+	padding: 1rem 1.5rem;
+	color: white;
+	text-decoration: none;
+	background: #000000;
+	outline: none;
+	border: none;
+	margin-top: 0 !important;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	display: none;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.input {
+	padding: 1rem;
+	outline: none;
+	border: none;
+}
+
+.border {
+	border: 1px solid rgba(34, 36, 35, 0.5);
+	display: flex;
+	align-items: center;
+	border-radius: 0.5rem;
+}
