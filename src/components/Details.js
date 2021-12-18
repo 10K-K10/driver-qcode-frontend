@@ -48,7 +48,7 @@ function Details() {
 								Name: <span>{details.name}</span>
 							</p>
 							<p>
-								DOB: <span>{details.dob.slice(0, 9)}</span>
+								DOB: <span>{details.dob.slice(0, 10)}</span>
 							</p>
 							<p>
 								Address: <span>{details.address}</span>
