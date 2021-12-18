@@ -166,10 +166,10 @@ function Register() {
 							Name: <span>{driver.name}</span>
 						</p>
 						<p>
-							dob: <span>{driver.dob}</span>
+							DOB: <span>{driver.dob}</span>
 						</p>
 						<p>
-							address: <span>{driver.address}</span>
+							Address: <span>{driver.address}</span>
 						</p>
 					</div>
 				</div>
