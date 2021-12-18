@@ -69,7 +69,7 @@ function Details() {
 				</header>
 				<div className='driverdiv'>
 					<p>
-						DOB: <span>{details.dob.slice(0, 9)}</span>
+						DOB: <span>{details.dob.slice(0, 10)}</span>
 					</p>
 					<p>
 						Contact: <span>{details.contact}</span>
